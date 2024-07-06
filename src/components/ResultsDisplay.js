@@ -31,7 +31,7 @@ const styles = StyleSheet.create({
     justifyContent: 'space-between',
   },
   detailedResults: {
-    marginTop: 15,
+    marginTop: 10,
   },
 });
 
