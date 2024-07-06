@@ -6,11 +6,11 @@ const ResultsDisplay = ({ detection }) => {
   return (
     <View style={styles.container}>
       <View style={styles.results}>
-        <Text>Aluminum Cans: {detection.aluminumCans}</Text>
-        <Text>HDPE2 Bottles: {detection.hdpe2Bottles}</Text>
-        <Text>PET1 Bottles: {detection.pet1Bottles}</Text>
-        <Text>Glass Bottles: {detection.glassBottles}</Text>
-        <Text>Milk Cartons: {detection.milkCartons}</Text>
+        <Text>Aluminum Cans: {detection.aluminumCans} units</Text>
+        <Text>HDPE2 Bottles: {detection.hdpe2Bottles} units</Text>
+        <Text>PET1 Bottles: {detection.pet1Bottles} units</Text>
+        <Text>Glass Bottles: {detection.glassBottles} units</Text>
+        <Text>Milk Cartons: {detection.milkCartons} units</Text>
         <Text>Total Items: {detection.totalItems}</Text>
       </View>
       <View style={styles.detailedResults}>
