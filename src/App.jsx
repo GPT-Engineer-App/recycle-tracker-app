@@ -12,7 +12,7 @@ export const navItems = [
   {
     title: "Home",
     to: "/",
-    icon: <Home className="h-4 w-4" />,
+    icon: <Home className="h-5 w-5" />,
   },
   {
     title: "Detection",
