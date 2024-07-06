@@ -39,6 +39,7 @@ const DesktopNav = () => (
     </NavItem>
     {navItems.map((item) => (
       <NavItem key={item.to} to={item.to}>
+        {item.icon}
         {item.title}
       </NavItem>
     ))}
