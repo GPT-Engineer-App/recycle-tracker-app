@@ -1,6 +1,7 @@
 import React from 'react';
 import { View, Text, StyleSheet } from 'react-native';
 
+// Component to display detection results
 const ResultsDisplay = ({ detection }) => {
   return (
     <View style={styles.container}>
